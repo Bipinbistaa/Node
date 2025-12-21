@@ -4,9 +4,9 @@ const schema = mongoose.Schema
 const blogSchema = new schema({ //creating the object from the class Schema
 
    
-    Title : String,
-    Subtitle : String,
-    Description : String
+    title : String,
+    subtitle : String,
+    description : String
 
 }) 
 

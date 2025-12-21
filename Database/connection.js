@@ -1,7 +1,7 @@
 const mongoose = require("mongoose")
 
 async function dbSangaconnectHu(){
-   await mongoose.connect("mongodb+srv://Nodejs:Bipin@cluster0.oxgk79c.mongodb.net/?appName=Cluster0")
+   await mongoose.connect(process.env.connection_string)
    console.log("DB connected successfully !!!")
 }
 
